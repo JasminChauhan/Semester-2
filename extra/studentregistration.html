@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+</head>
+<body>
+	<h1 align="center">Student Registration</h1>
+	<form>
+		<fieldset>
+			<table align="center">
+				<legend align="center">Personal Information</legend>
+				<tr>
+					<td>Name*</td>
+					<td><input type="text" name="name" placeholder="Enter your Name"></td>
+					<td>Password*</td>
+					<td>
+						<input type="pasword" name="pass" placeholder="Enter your password">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Email*
+					</td>
+					<td colspan="3">
+						<input type="email" name="email" placeholder="Enter your Email">
+					</td>
+				</tr>
+				<tr>
+				<td>Mobile Number</td>
+				<td>
+					<input type="mobile" name="mobile no" placeholder="Enter your Mobile number" pattern="{0-9}[10]">
+				</td>
+			        <td>Date Of Birth</td>
+					<td>
+						<input type="date" name="date">
+					</td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender">Male<br>
+						<input type="radio" name="gender">Female
+					</td>
+					<td>
+						Hobbies
+					</td>
+					<td>
+						<input type="checkbox" name="hoby">reading<br>
+						<input type="checkbox" name="hoby">singing<br>
+						<input type="checkbox" name="hoby">cricket<br>
+						<input type="checkbox" name="hoby">swimming<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						CGPA
+					</td>
+					<td>
+						<input type="range" name="cgpa">10.00
+						<button>OR</button>
+						<input type="number" name="number">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Insert Resume
+					</td>
+					<td>
+						<input type="file" name="resume">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						LinkedIn URL
+					</td>
+					<td colspan="2">
+						<input type="url" name="URL" placeholder="Please Enter URL">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" align="right">
+						<button type="submit">submit</button>
+					</td>
+					<td colspan="1" align="left">
+						<button type="reset">Reset</button>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	Comments
+	<fieldset>
+		Please enter some suggestion
+	</fieldset>
+</body>
+</html>

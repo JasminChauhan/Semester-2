@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Novell Service</title>
+</head>
+<body>
+      <h1 align="center">Novell Sevices Login</h1>
+      <form>
+      	<table align="center">
+      		<tr>
+      			<td>
+      				Username:
+      			</td>
+      			<td>
+      				<input type="text" name="username" required="">
+      			</td>
+      		</tr>
+      		<tr>
+      			 <td>
+      			 	Password:
+      			 </td>
+      			 <td>
+      			 	<input type="password" name="password" required="">
+      			 </td>
+      		</tr>
+      		<tr>
+      			<td>
+      				Mobile: 
+      			</td>
+      			<td>
+      				<input type="mobile" name="mobile" pattern="{0-9}[10]" required="">
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      				City of <br> 
+      				Employment:
+      			</td>
+      			<td>
+      				<input type="text" name="city" required="">
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      				Gender:
+      			</td>
+      			<td>
+      				<input type="radio" name="gender"> Male<br>
+      				<input type="radio" name="gender"> Female
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      				Web server:
+      			</td>
+      			<td>
+      				<select>
+      					<option selected="" disabled="">---Choose a server---</option>
+      					<option>Java server</option>
+      					<option>Html server</option>
+      				</select>
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      				Please specify<br>
+      				your role:
+      			</td>
+      			<td>
+      				<input type="radio" name="role"> Admin <br>
+      				<input type="radio" name="role"> Engineer <br>
+      				<input type="radio" name="role"> Manager <br>
+      				<input type="radio" name="role"> Guest <br>      
+      			</td>
+      		</tr>
+      		<tr>
+      			<td>
+      				Single Sign-on<br>
+      				to the following:
+      			</td>
+      			<td>
+      				<input type="checkbox" name="checkbox"> Mail<br>
+      				<input type="checkbox" name="checkbox"> Payroll <br>
+      				<input type="checkbox" name="checkbox"> Self-service
+      			</td>
+      		</tr>
+      		<tr>
+      			<td align="right">
+      				<button>Login</button>
+      			</td>
+      			<td align="left">
+      				<button type="reset">Reset</button>
+      			</td>
+            </tr>
+      	</table>
+      </form>
+</body>
+</html>
