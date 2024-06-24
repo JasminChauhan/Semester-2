@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9B</title>
+	<style type="text/css">
+		.maindiv{
+			height: 100%;
+			width: 100%;
+			background-color: blue;
+			position: absolute;
+			animation-name: color;
+			animation-duration: 2s;
+			animation-iteration-count: infinite; 
+		}
+		.subdiv1{
+			height: 15%;
+			width: 70%;
+		    
+			background-color: red;
+			animation-name: color1;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.subdiv2{
+			height: 15%;
+			width: 70%;
+			
+			background-color: grey;
+			animation-name: color2;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.subdiv3{
+			height: 15%;
+			width: 70%;
+			background-color: black;
+			animation-name: color3;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.subdiv4{
+			height: 15%;
+			width: 70%;
+			background-color: green;
+			
+			animation-name: color4;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		.subdiv5{
+			height: 15%;
+			width: 70%;
+			background-color: purple;
+			
+			animation-name: color5;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes color{
+			to{
+               background-color: blue;
+               
+   			}
+			from{
+               background-color: white;
+               
+      			}
+		}
+		@keyframes color1{
+			to{
+               background-color: red;
+               margin-left: 10%;
+   			}
+			from{
+               background-color: white;
+               margin-right: 10%;
+			}
+		}
+		@keyframes color2{
+			to{
+               background-color: grey;
+               margin-right: 10%;
+   			}
+			from{
+               background-color: white;
+               margin-left: 0%; 
+			}
+		}
+		@keyframes color3{
+			to{
+               background-color: black;
+                margin-left: 10%;
+   			}
+			from{
+               background-color: white;
+               margin-right: 10%;
+			}
+		}
+		@keyframes color4{
+			to{
+               background-color: green;
+                margin-right: 10%;
+   			}
+			from{
+               background-color: white;
+               margin-left: 0%; 
+			}
+		}
+		@keyframes color5{
+			to{
+               background-color: purple;
+               margin-left: 10%;
+
+   			}
+			from{
+               background-color: white;
+               margin-right: 10%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+     <div class="maindiv">
+     	<div class="subdiv1"></div>
+     	<div class="subdiv2"></div>
+     	<div class="subdiv3"></div>
+     	<div class="subdiv4"></div>
+     	<div class="subdiv5"></div>
+    </div>
+   
+</body>
+</html>
